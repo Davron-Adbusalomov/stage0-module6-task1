@@ -1,7 +1,7 @@
 package com.epam.mjc.stage0;
 
 public class Animal {
-  String color;
+  private String color;
 
   int numberOfPaws;
 
