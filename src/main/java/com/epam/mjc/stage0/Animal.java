@@ -7,13 +7,13 @@ public class Animal {
 
   boolean hasFur;
 
-  Animal(String color, int numberOfPaws, boolean hasFur){
+  public Animal(String color, int numberOfPaws, boolean hasFur){
     this.color = color;
     this.numberOfPaws=numberOfPaws;
     this.hasFur = hasFur;
   }
 
-  String getDescription(){
+  public String getDescription(){
     return "This animal is mostly " + color+ ". It has "+numberOfPaws+" "+(numberOfPaws ==1 ? "paw":"paws")+" and "+ (hasFur ? "a":"no") +" fur.";
   }
 }
